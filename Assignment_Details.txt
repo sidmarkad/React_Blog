@@ -1,0 +1,66 @@
+We need a 3 pages website as follows: 
+
+1. Homepage
+Sections-
+Nav Bar 
+It should contain a logo and nav menus with items as 'Home' and 'Create a Post'.
+Hero Section
+It should have a full width hero image along with site title at the centre of the image.   
+Blogs 
+List of posts fetched from the APIs. Blogs should contain pagination with 6 blogs per page. Each blog will contain it's title and description below that. Also, there should be a link to open up the blog's detail page. 
+Footer
+With some copyright text and social media icons. 
+Points to note:
+While the posts are loading or being fetched from the API, it should show proper loader aligned in the centre. 
+
+2. Single Blog page
+Sections-
+Nav Bar
+As mentioned in the Homepage sections. 
+Post Title
+It should have a title of the post we selected. 
+Description
+Description of the post we selected from the blog post. 
+Footer
+As mentioned in the homepage sections.
+
+3. Create a Post
+Sections-
+Nav Bar
+As mentioned in the homepage sections.
+Form
+A form to create a post with following fields:
+Title
+Description
+Footer
+As mentioned in the homepage sections.
+Points to note:
+Form validation should be done. It should show proper messages for empty fields. 
+Once the form is submitted, it should show the ID of the post we got in response from the API. 
+
+Points to note:
+There are no designs/layouts/mock-up provided to you. You are expected to design it on your own. You can pickup any ready to use templates, but you will be answerable on why you chosen it.  
+
+You are expected to use the Graphql APIs. 
+Decide where you will need mutations/queries to use. 
+You are also expected to use react-apollo client to interact with graphql APIs. 
+
+It will be a great advantage to you if you use Tailwind CSS framework. 
+Graphql Stuff:
+
+Graphql API URL:
+https://graphqlzero.almansi.me/api
+Graphql Playground
+https://graphqlzero.almansi.me/api
+Graphql Schema that you will require:
+https://graphqlzero.almansi.me/#example-top
+ 
+
+Some useful links that might help:
+
+Understand about graphql:
+https://www.howtographql.com/basics/0-introduction/
+Understand react apollo client
+https://www.apollographql.com/docs/react/
+Tailwind CSS
+https://tailwindcss.com/

@@ -1,0 +1,87 @@
+body{
+    overflow-x: hidden;
+}
+.header{
+    background-image:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('./Images/image1.jpg');
+    height: 90vh;
+    width: 100vw;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+}
+.homeheader{
+    margin-top: 66px;
+}
+
+.newblog{
+    margin-top: 80px;
+}
+.error-div{
+    height: 10px;
+    /* background-color: hotpink; */
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.cardblog img{
+    height: 200px;
+}
+.pagi{
+    position: relative;
+    margin-bottom: 60px;
+}
+.pagi ul{
+    position: absolute;
+    right: 0;
+}
+.singleblog{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+}
+
+.singleblog img{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.blogbody{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.blogtitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.readmorebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.readmore{
+    color: black;
+    text-decoration: none;
+}
+
+.readmore:hover{
+    color: grey;
+}
+
+.spin{
+    width : 100%;
+    display : flex;
+    align-items: center;
+    justify-content:center;
+}

@@ -1,0 +1,12 @@
+.singleblog{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
+}
+
+.singleblog img{
+    height: 400px;
+    border-radius: 10px;
+}
